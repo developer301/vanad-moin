@@ -183,7 +183,7 @@ alert('User already registered. Please try again');
 
     <section class="home-slider owl-carousel">
       
-      <div class="slider-item" style="background-image:url(images/bg_2.jpg);">
+      <div class="slider-item" style="background-image:url(img/ERECTILE-DYSFUNCTION.jpg);">
       	<div class="overlay"></div>
         <div class="container">
           <div class="row no-gutters slider-text align-items-center justify-content-end" data-scrollax-parent="true">
@@ -198,7 +198,7 @@ alert('User already registered. Please try again');
     
       
 
-      <div class="slider-item" style="background-image:url(images/bg_2.jpg);">
+      <div class="slider-item" style="background-image:url(img/Premature-Ejaculation.jpg);">
       	<div class="overlay"></div>
         <div class="container">
           <div class="row no-gutters slider-text align-items-center justify-content-end" data-scrollax-parent="true">
@@ -212,12 +212,12 @@ alert('User already registered. Please try again');
       </div>
 
 
-      <div class="slider-item" style="background-image:url(images/bg_2.jpg);">
+      <div class="slider-item" style="background-image:url(img/Azoospermia.jpg);">
       	<div class="overlay"></div>
         <div class="container">
           <div class="row no-gutters slider-text align-items-center justify-content-end" data-scrollax-parent="true">
           <div class="col-md-6 text ftco-animate">
-            <h1 class="mb-4">Azospermia</h1>
+            <h1 class="mb-4">Azoospermia</h1>
             <h3 class="subheading">Your Health is Our Top Priority with Comprehensive, Affordable medical.</h3>
             <p><a href="#" class="btn btn-secondary px-4 py-3 mt-3">View our works</a></p>
           </div>
@@ -225,7 +225,7 @@ alert('User already registered. Please try again');
         </div>
       </div>
     
-      <div class="slider-item" style="background-image:url(images/bg_2.jpg);">
+      <div class="slider-item" style="background-image:url(img/Infertility.jpg);">
       	<div class="overlay"></div>
         <div class="container">
           <div class="row no-gutters slider-text align-items-center justify-content-end" data-scrollax-parent="true">
@@ -238,7 +238,7 @@ alert('User already registered. Please try again');
         </div>
       </div>
 
-      <div class="slider-item" style="background-image:url(images/bg_2.jpg);">
+      <div class="slider-item" style="background-image:url(img/Phimosis.jpg);">
       	<div class="overlay"></div>
         <div class="container">
           <div class="row no-gutters slider-text align-items-center justify-content-end" data-scrollax-parent="true">
@@ -251,7 +251,7 @@ alert('User already registered. Please try again');
         </div>
       </div>
 
-      <div class="slider-item" style="background-image:url(images/bg_2.jpg);">
+      <div class="slider-item" style="background-image:url(img/Varicocele.jpg);">
       	<div class="overlay"></div>
         <div class="container">
           <div class="row no-gutters slider-text align-items-center justify-content-end" data-scrollax-parent="true">
@@ -264,7 +264,7 @@ alert('User already registered. Please try again');
         </div>
       </div>
 
-      <div class="slider-item" style="background-image:url(images/bg_2.jpg);">
+      <div class="slider-item" style="background-image:url(img/Low-Motility-of-Sperm.jpg);">
       	<div class="overlay"></div>
         <div class="container">
           <div class="row no-gutters slider-text align-items-center justify-content-end" data-scrollax-parent="true">
