@@ -159,7 +159,42 @@ alert('User already registered. Please try again');
 	    </div>
 	  </nav>
     <!-- END nav -->
+
     
+    <section class="home-slider owl-carousel">
+  
+    
+    <div class="slider-item" style="background-image:url(img/slider1-welcome-to-vanad-clinic-scaled.jpg);">
+      	<div class="overlay"></div>
+        <div class="container">
+          <div class="row no-gutters slider-text align-items-center justify-content-end" data-scrollax-parent="true">
+          <div class="col-md-6 text ftco-animate">
+            <h1 class="mb-4">WELCOME TO VANAD CLINIC</h1>
+            <h3 class="subheading">Best Sex Clinic for you. Vanad Clinic is leading sexology clinic in Pune which offers treatment for Sexual Dysfunction, Erectile Dysfunction, Premature Ejaculation, Night Fall, Over Masturbation, Porn De-Addiction, General Infections , Phimosis and Infertility.  Clinic for Holistic Sexual Treatment and Education </h3>
+            <p><a href="#" class="btn btn-secondary px-4 py-3 mt-3">COUPLE HERAPY</a></p>
+          </div>
+        </div>
+        </div>
+      </div>
+  
+      <div class="slider-item" style="background-image:url(img/slider3-couple-therapy-scaled.jpg);">
+      	<div class="overlay"></div>
+        <div class="container">
+          <div class="row no-gutters slider-text align-items-center justify-content-end" data-scrollax-parent="true">
+          <div class="col-md-6 text ftco-animate">
+            <h1 class="mb-4" style="color:white">improving communication between partners</h1>
+            <h3 class="subheading" style="color:white">Couple therapy is a therapeutic treatment which aims to deal with the various and possible crises that couples can encounter</h3>
+            <p><a href="#" class="btn btn-secondary px-4 py-3 mt-3">COUPLE HERAPY</a></p>
+          </div>
+        </div>
+        </div>
+      </div>
+  
+      
+
+    </section>
+
+
     <section class="ftco-section ftco-no-pt ftco-no-pb">
 			<div class="container">
 				<div class="row no-gutters">
@@ -168,11 +203,11 @@ alert('User already registered. Please try again');
 	          	<div class="pl-md-5 ml-md-5 pt-md-5">
 		          	<span class="subheading mb-2">VANAD CLINIC</span>
 		            <h2 class="mb-2" style="font-size: 32px;">Let's believe in us.</h2>
-                <p>They are treating all sexual problems from past 15 years with highest success rate.</p>
-	            </div>
+              </div>
 	          </div>
 	          <div class="pl-md-5 ml-md-5 mb-5">
-							<p>
+            <p>They are treating all sexual problems from past 15 years with highest success rate.</p>
+            <p>
               With about 14+ years of practicing experience we now strongly believe that Nature has answers for almost all the ailments human being suffer from. At Vanad Clinic we offer Homeopathy, Ayurveda, supplementary or combination of this therapy for patients with sexual ailments. The key benefit of this is patients from each and every corner of globe can seek an expert and experienced guidance and also save their valuable time and money. This portal has made knowledge and therapeutic skills available to worldwide community overcoming time and distance barriers.
               </p>
 						</div>
@@ -303,23 +338,51 @@ alert('User already registered. Please try again');
               <p>
               He is the member of prestigious organisation Council of Sex Education and Parenthood (International). He continuously participates in activities regarding development of sexology (sexual medicine) and mental health that are organized by various organization, forums and institutions .
               </p>
+              <p><b>1,200 + Clients across globe satisfied by Video Consultation</b></p>
+              <p><b>05 Clinic across 5 cities in Maharastra</b></p>
+              <p><b>25,000 + Delivered medicines to 25+ international cities</b></p>
+              <p><b>Delivered medicines to 25+ international cities</b></p>
+							<br>
+
+              <div class="pl-md-5 ml-md-5 mb-5">
 							<div class="founder d-flex align-items-center mt-5">
+								<div class="img" style="background-image: url(images/doc-1.jpg);"></div>
 								<div class="text pl-3">
-                <input type="submit" name="login" id="login" value="KNOW MORE" class="btn btn-secondary py-2 px-4">
+                <h3 class="mb-0">100 %</h3>
+                <span class="position">Confidentiality</span>
 								</div>
-							</div>
+                <div class="img" style="background-image: url(images/doc-1.jpg);"></div>
+								<div class="text pl-3">
+                <h3 class="mb-0">14</h3>
+									<span class="position">Years of Experience</span>
+								</div>
+              </div>
 						</div>
-					</div>
+
+            <div class="pl-md-5 ml-md-5 mb-5">
+							<div class="founder d-flex align-items-center mt-5">
+								<div class="img" style="background-image: url(images/doc-1.jpg);"></div>
+								<div class="text pl-3">
+                <h3 class="mb-0">25,000 +</h3>
+									<span class="position">Satisfied Patients</span>
+								</div>
+								<div class="img" style="background-image: url(images/doc-1.jpg);"></div>
+								<div class="text pl-3">
+                <h3 class="mb-0">10,000 +</h3>
+									<span class="position">Happy Couples</span>
+								</div>
+
+              </div>
+						</div>
+
+  
+            </div>
+          </div>
 				</div>
 			</div>
 		</section>
 
     
-
-
-    
-		
-
 		<section class="ftco-section ftco-no-pt ftco-no-pb">
 			<div class="container-fluid px-md-0">
 				<div class="row no-gutters">
@@ -410,309 +473,172 @@ alert('User already registered. Please try again');
 			</div>
 		</section>
 
-    
+
 		<section class="ftco-section bg-light">
 			<div class="container">
-				<div class="row justify-content-center mb-5 pb-2">
+				
+      <div class="row justify-content-center mb-5 pb-2">
           <div class="col-md-8 text-center heading-section ftco-animate">
-          	<span class="subheading">Blog</span>
+          	<!-- <span class="subheading">Blog</span>
             <h2 class="mb-4">Recent Blog</h2>
-            <p>Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country</p>
+            <p>Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country</p> -->
           </div>
         </div>
 				<div class="row">
           <div class="col-md-4 ftco-animate">
             <div class="blog-entry">
               <a href="blog-single.html" class="block-20 d-flex align-items-end justify-content-end" style="background-image: url('images/image_1.jpg');">
-								<div class="meta-date text-center p-2">
-                  <span class="day">18</span>
-                  <span class="mos">September</span>
-                  <span class="yr">2019</span>
-                </div>
-              </a>
+						  </a>
               <div class="text bg-white p-4">
-                <h3 class="heading"><a href="#">Scary Thing That You Don’t Get Enough Sleep</a></h3>
-                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                <h3 class="heading"><a href="#">ERECTILE DYSFUNCTION</a></h3>
+                <p>
+                Persistent difficulty achieving and maintaining an erection sufficient to have sex.
+                </p>
+                <ul>
+                  <li>Causes are usually medical but can also be psychological</li>
+                  <li>Medical condition affecting the blood vessels or nerves</li>
+                  <li>Prescription / recreational drugs, alcohol & smoking all cause ED</li>
+                </ul>
                 <div class="d-flex align-items-center mt-4">
-	                <p class="mb-0"><a href="#" class="btn btn-primary">Read More <span class="ion-ios-arrow-round-forward"></span></a></p>
-	                <p class="ml-auto mb-0">
-	                	<a href="#" class="mr-2">Admin</a>
-	                	<a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a>
-	                </p>
+	                <p class="mb-0"><a href="#" class="btn btn-primary">Know More <span class="ion-ios-arrow-round-forward"></span></a></p>
                 </div>
               </div>
             </div>
           </div>
+
           <div class="col-md-4 ftco-animate">
             <div class="blog-entry">
-              <a href="blog-single.html" class="block-20 d-flex align-items-end justify-content-end" style="background-image: url('images/image_2.jpg');">
-								<div class="meta-date text-center p-2">
-                  <span class="day">18</span>
-                  <span class="mos">September</span>
-                  <span class="yr">2019</span>
-                </div>
-              </a>
+              <a href="blog-single.html" class="block-20 d-flex align-items-end justify-content-end" style="background-image: url('images/image_1.jpg');">
+						  </a>
               <div class="text bg-white p-4">
-                <h3 class="heading"><a href="#">Scary Thing That You Don’t Get Enough Sleep</a></h3>
-                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                <h3 class="heading"><a href="#">PREMATURE EJACULATION</a></h3>
+                <p>
+                Premature ejaculation (PE) is when ejaculation happens sooner than his partner would like during sex.  
+              </p>
+                <ul>
+                  <li>1 out of 3 men say they experience this problem</li>
+                  <li>Mostly psychological than physical causes</li>
+                  <li>It is treatable by proper medication and counselling</li>
+                </ul>
                 <div class="d-flex align-items-center mt-4">
-	                <p class="mb-0"><a href="#" class="btn btn-primary">Read More <span class="ion-ios-arrow-round-forward"></span></a></p>
-	                <p class="ml-auto mb-0">
-	                	<a href="#" class="mr-2">Admin</a>
-	                	<a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a>
-	                </p>
+	                <p class="mb-0"><a href="#" class="btn btn-primary">Know More <span class="ion-ios-arrow-round-forward"></span></a></p>
                 </div>
               </div>
             </div>
           </div>
+          
           <div class="col-md-4 ftco-animate">
             <div class="blog-entry">
-              <a href="blog-single.html" class="block-20 d-flex align-items-end justify-content-end" style="background-image: url('images/image_3.jpg');">
-								<div class="meta-date text-center p-2">
-                  <span class="day">18</span>
-                  <span class="mos">September</span>
-                  <span class="yr">2019</span>
-                </div>
-              </a>
+              <a href="blog-single.html" class="block-20 d-flex align-items-end justify-content-end" style="background-image: url('images/image_1.jpg');">
+						  </a>
               <div class="text bg-white p-4">
-                <h3 class="heading"><a href="#">Scary Thing That You Don’t Get Enough Sleep</a></h3>
-                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                <h3 class="heading"><a href="#">INFERTILITY</a></h3>
+                <p>
+                Infertility means not being able to become pregnant after a year of trying
+              </p>
+                <ul>
+                  <li>1 out of 3 families struggle with infertility</li>
+                  <li>Infertility can be found in both, females and males</li>
+                  <li>Treatment - hormone treatments, fertility drugs and surgery</li>
+                </ul>
                 <div class="d-flex align-items-center mt-4">
-	                <p class="mb-0"><a href="#" class="btn btn-primary">Read More <span class="ion-ios-arrow-round-forward"></span></a></p>
-	                <p class="ml-auto mb-0">
-	                	<a href="#" class="mr-2">Admin</a>
-	                	<a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a>
-	                </p>
+	                <p class="mb-0"><a href="#" class="btn btn-primary">Know More <span class="ion-ios-arrow-round-forward"></span></a></p>
                 </div>
               </div>
             </div>
           </div>
+          
+          <div class="col-md-4 ftco-animate">
+            <div class="blog-entry">
+              <a href="blog-single.html" class="block-20 d-flex align-items-end justify-content-end" style="background-image: url('images/image_1.jpg');">
+						  </a>
+              <div class="text bg-white p-4">
+                <h3 class="heading"><a href="#">AZOOSPERMIA</a></h3>
+                <p>
+                Azoospermia is a condition in which there’s no measurable sperm in a man’s ejaculate (semen). 
+                </p>
+                <ul>
+                  <li>Infertility affects about 15 % of the male population</li>
+                  <li>Obstruction in the reproductive tract or less sperm production</li>
+                  <li>Azoospermia can be treated with medication</li>
+                </ul>
+                <div class="d-flex align-items-center mt-4">
+	                <p class="mb-0"><a href="#" class="btn btn-primary">Know More <span class="ion-ios-arrow-round-forward"></span></a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-md-4 ftco-animate">
+            <div class="blog-entry">
+              <a href="blog-single.html" class="block-20 d-flex align-items-end justify-content-end" style="background-image: url('images/image_1.jpg');">
+						  </a>
+              <div class="text bg-white p-4">
+                <h3 class="heading"><a href="#">PHIMOSIS</a></h3>
+                <p>
+                Phimosis is a condition in which the foreskin can’t be retracted from around the tip of the penis</p>
+                <ul>
+                  <li>Main symptom is inability to retract foreskin by the age of 3</li>
+                  <li>Phimosis occur in less than 1 % of teenagers between 16 & 18</li>
+                  <li>Phimosis can occur naturally or be the result of scarring</li>
+                </ul>
+                <div class="d-flex align-items-center mt-4">
+	                <p class="mb-0"><a href="#" class="btn btn-primary">Know More <span class="ion-ios-arrow-round-forward"></span></a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-md-4 ftco-animate">
+            <div class="blog-entry">
+              <a href="blog-single.html" class="block-20 d-flex align-items-end justify-content-end" style="background-image: url('images/image_1.jpg');">
+						  </a>
+              <div class="text bg-white p-4">
+                <h3 class="heading"><a href="#">VARICOCELE</a></h3>
+                <p>
+                Phimosis is a condition in which the foreskin can’t be retracted from around the tip of the penis
+                </p>
+                <ul>
+                  <li>Main symptom is inability to retract foreskin by the age of 3</li>
+                  <li>Phimosis occur in less than 1 % of teenagers between 16 & 18</li>
+                  <li>Phimosis can occur naturally or be the result of scarring
+</li>
+                </ul>
+                <div class="d-flex align-items-center mt-4">
+	                <p class="mb-0"><a href="#" class="btn btn-primary">Know More <span class="ion-ios-arrow-round-forward"></span></a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
         </div>
 			</div>
 		</section>
 
-		
-		
-
-    <!-- <section class="ftco-section ftco-services">
-    	<div class="container">
-    		<div class="row justify-content-center mb-5 pb-2">
-          <div class="col-md-8 text-center heading-section ftco-animate">
-          	<span class="subheading">Services</span>
-            <h2 class="mb-4">Our Clinic Services</h2>
-            <p>Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country</p>
-          </div>
-        </div>
-        <div class="row">
-        	<div class="col-md-3 d-flex services align-self-stretch p-4 ftco-animate">
-            <div class="media block-6 d-block text-center">
-              <div class="icon d-flex justify-content-center align-items-center">
-            		<span class="flaticon-drilling"></span>
-              </div>
-              <div class="media-body p-2 mt-3">
-                <h3 class="heading">ERECTILE DYSFUNCTION</h3>
-                <p>Persistent difficulty achieving and maintaining an erection sufficient to have sex.</p>
-                <p>
-                Causes are usually medical but can also be psychological<br>
-                Medical condition affecting the blood vessels or nerves<br>
-                Prescription / recreational drugs, alcohol & smoking all cause ED
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3 d-flex services align-self-stretch p-4 ftco-animate">
-            <div class="media block-6 d-block text-center">
-              <div class="icon d-flex justify-content-center align-items-center">
-            		<span class="flaticon-tooth"></span>
-              </div>
-              <div class="media-body p-2 mt-3">
-                <h3 class="heading">Cosmetic Dentistry</h3>
-                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-              </div>
-            </div>      
-          </div>
-          <div class="col-md-3 d-flex services align-self-stretch p-4 ftco-animate">
-            <div class="media block-6 d-block text-center">
-              <div class="icon d-flex justify-content-center align-items-center">
-            		<span class="flaticon-dental-floss"></span>
-              </div>
-              <div class="media-body p-2 mt-3">
-                <h3 class="heading">Dental Care</h3>
-                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-              </div>
-            </div>      
-          </div>
-					
-					<div class="col-md-3 d-flex services align-self-stretch p-4 ftco-animate">
-            <div class="media block-6 d-block text-center">
-              <div class="icon d-flex justify-content-center align-items-center">
-            		<span class="flaticon-shiny-tooth"></span>
-              </div>
-              <div class="media-body p-2 mt-3">
-                <h3 class="heading">Teeth Whitening</h3>
-                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3 d-flex services align-self-stretch p-4 ftco-animate">
-            <div class="media block-6 d-block text-center">
-              <div class="icon d-flex justify-content-center align-items-center">
-            		<span class="flaticon-dentist-chair"></span>
-              </div>
-              <div class="media-body p-2 mt-3">
-                <h3 class="heading">Dental Calculus</h3>
-                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-              </div>
-            </div>      
-          </div>
-          <div class="col-md-3 d-flex services align-self-stretch p-4 ftco-animate">
-            <div class="media block-6 d-block text-center">
-              <div class="icon d-flex justify-content-center align-items-center">
-            		<span class="flaticon-tooth-1"></span>
-              </div>
-              <div class="media-body p-2 mt-3">
-                <h3 class="heading">Periondontics</h3>
-                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-              </div>
-            </div>      
-          </div>
-          <div class="col-md-3 d-flex services align-self-stretch p-4 ftco-animate">
-            <div class="media block-6 d-block text-center">
-              <div class="icon d-flex justify-content-center align-items-center">
-            		<span class="flaticon-tooth-with-braces"></span>
-              </div>
-              <div class="media-body p-2 mt-3">
-                <h3 class="heading">Clip &amp; Braces</h3>
-                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-              </div>
-            </div>      
-          </div>
-          <div class="col-md-3 d-flex services align-self-stretch p-4 ftco-animate">
-            <div class="media block-6 d-block text-center">
-              <div class="icon d-flex justify-content-center align-items-center">
-            		<span class="flaticon-decayed-tooth"></span>
-              </div>
-              <div class="media-body p-2 mt-3">
-                <h3 class="heading">Root Canel</h3>
-                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-              </div>
-            </div>      
-          </div>
-        </div>
-    	</div>
-    </section> -->
-<!--
-    <section class="ftco-section intro" style="background-image: url('img/ERECTILE-DYSFUNCTION.gif');" data-stellar-background-ratio="0.5">
-    	<div class="container">
-    		<div class="row">
-    			<div class="col-md-6">
-    				<h3 class="mb-4" style="color:white">ERECTILE DYSFUNCTION</h3>
-    				<p style="color:white">Persistent difficulty achieving and maintaining an erection sufficient to have sex.</p>
-            <p>
-              <ul>
-                <li style="color:white">Causes are usually medical but can also be psychological</li>
-                <li style="color:white">Medical condition affecting the blood vessels or nerves</li>
-                <li style="color:white">Prescription / recreational drugs, alcohol & smoking all cause ED</li>
-              </ul>
-            </p>
-    			</div>
-    		</div>
-    	</div>
-    </section> -->
-		
-		<section class="ftco-section">
+    <section class="ftco-intro" style="background-image: url(images/bg_3.jpg);" data-stellar-background-ratio="0.5">
+			<div class="overlay"></div>
 			<div class="container">
-				<div class="row justify-content-center mb-5 pb-2">
-          <div class="col-md-8 text-center heading-section ftco-animate">
-          	<span class="subheading">Doctors</span>
-            <h2 class="mb-4">Our Qualified Doctors</h2>
-            <p>Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country</p>
-          </div>
-        </div>	
 				<div class="row">
-					<div class="col-md-6 col-lg-3 ftco-animate">
-						<div class="staff">
-							<div class="img-wrap d-flex align-items-stretch">
-								<div class="img align-self-stretch" style="background-image: url(images/doc-1.jpg);"></div>
-							</div>
-							<div class="text pt-3 text-center">
-								<h3>Dr. Lloyd Wilson</h3>
-								<span class="position mb-2">Denstist</span>
-								<div class="faded">
-									<p>I am an ambitious workaholic, but apart from that, pretty simple person.</p>
-									<ul class="ftco-social text-center">
-		                <li class="ftco-animate"><a href="#" class="d-flex align-items-center justify-content-center"><span class="icon-twitter"></span></a></li>
-		                <li class="ftco-animate"><a href="#" class="d-flex align-items-center justify-content-center"><span class="icon-facebook"></span></a></li>
-		                <li class="ftco-animate"><a href="#" class="d-flex align-items-center justify-content-center"><span class="icon-google-plus"></span></a></li>
-		                <li class="ftco-animate"><a href="#" class="d-flex align-items-center justify-content-center"><span class="icon-instagram"></span></a></li>
-		              </ul>
-	              </div>
-							</div>
-						</div>
+					<div class="col-md-9">
+						<h2>Video Consultation.</h2>
+						<p class="mb-0">BENEFITS OF VIDEO CONSULTATION</p>
+            <ul>
+              <li>Convinient Time</li>
+              <li>Cost Effective</li>
+              <li>No Travelling</li>
+              <li>Excellent patient satisfactio</li>
+            </ul>
+						<p></p>
 					</div>
-					<div class="col-md-6 col-lg-3 ftco-animate">
-						<div class="staff">
-							<div class="img-wrap d-flex align-items-stretch">
-								<div class="img align-self-stretch" style="background-image: url(images/doc-2.jpg);"></div>
-							</div>
-							<div class="text pt-3 text-center">
-								<h3>Dr. Rachel Parker</h3>
-								<span class="position mb-2">Dentist</span>
-								<div class="faded">
-									<p>I am an ambitious workaholic, but apart from that, pretty simple person.</p>
-									<ul class="ftco-social text-center">
-		                <li class="ftco-animate"><a href="#" class="d-flex align-items-center justify-content-center"><span class="icon-twitter"></span></a></li>
-		                <li class="ftco-animate"><a href="#" class="d-flex align-items-center justify-content-center"><span class="icon-facebook"></span></a></li>
-		                <li class="ftco-animate"><a href="#" class="d-flex align-items-center justify-content-center"><span class="icon-google-plus"></span></a></li>
-		                <li class="ftco-animate"><a href="#" class="d-flex align-items-center justify-content-center"><span class="icon-instagram"></span></a></li>
-		              </ul>
-	              </div>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-6 col-lg-3 ftco-animate">
-						<div class="staff">
-							<div class="img-wrap d-flex align-items-stretch">
-								<div class="img align-self-stretch" style="background-image: url(images/doc-3.jpg);"></div>
-							</div>
-							<div class="text pt-3 text-center">
-								<h3>Dr. Ian Smith</h3>
-								<span class="position mb-2">Dentist</span>
-								<div class="faded">
-									<p>I am an ambitious workaholic, but apart from that, pretty simple person.</p>
-									<ul class="ftco-social text-center">
-		                <li class="ftco-animate"><a href="#" class="d-flex align-items-center justify-content-center"><span class="icon-twitter"></span></a></li>
-		                <li class="ftco-animate"><a href="#" class="d-flex align-items-center justify-content-center"><span class="icon-facebook"></span></a></li>
-		                <li class="ftco-animate"><a href="#" class="d-flex align-items-center justify-content-center"><span class="icon-google-plus"></span></a></li>
-		                <li class="ftco-animate"><a href="#" class="d-flex align-items-center justify-content-center"><span class="icon-instagram"></span></a></li>
-		              </ul>
-	              </div>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-6 col-lg-3 ftco-animate">
-						<div class="staff">
-							<div class="img-wrap d-flex align-items-stretch">
-								<div class="img align-self-stretch" style="background-image: url(images/doc-4.jpg);"></div>
-							</div>
-							<div class="text pt-3 text-center">
-								<h3>Dr. Alicia Henderson</h3>
-								<span class="position mb-2">Dentist</span>
-								<div class="faded">
-									<p>I am an ambitious workaholic, but apart from that, pretty simple person.</p>
-									<ul class="ftco-social text-center">
-		                <li class="ftco-animate"><a href="#" class="d-flex align-items-center justify-content-center"><span class="icon-twitter"></span></a></li>
-		                <li class="ftco-animate"><a href="#" class="d-flex align-items-center justify-content-center"><span class="icon-facebook"></span></a></li>
-		                <li class="ftco-animate"><a href="#" class="d-flex align-items-center justify-content-center"><span class="icon-google-plus"></span></a></li>
-		                <li class="ftco-animate"><a href="#" class="d-flex align-items-center justify-content-center"><span class="icon-instagram"></span></a></li>
-		              </ul>
-	              </div>
-							</div>
-						</div>
+					<div class="col-md-3 d-flex align-items-center">
+						<p class="mb-0"><a href="#" class="btn btn-secondary px-4 py-3">BOOK ONLINE SESSION</a></p>
 					</div>
 				</div>
 			</div>
 		</section>
+
+
+		
 
     <section class="ftco-section testimony-section bg-light">
       <div class="container">
@@ -733,9 +659,11 @@ alert('User already registered. Please try again');
                   	<span class="quote d-flex align-items-center justify-content-center">
                       <i class="icon-quote-left"></i>
                     </span>
-                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <p class="name">Racky Henderson</p>
-                    <span class="position">Farmer</span>
+                    <p>
+                    It was amazing experience at Vanad Clinic, they offer each and everything you need to get cured – Homeopathy, Ayurveda , supplements and everything.. They also taught me certain exercises and I don’t know why they do not mention anything about exercise on website.
+                    </p>
+                    <p class="name">Mr. Pravin K</p>
+                    <span class="position">IT Professional</span>
                   </div>
                 </div>
               </div>
@@ -747,51 +675,11 @@ alert('User already registered. Please try again');
                   	<span class="quote d-flex align-items-center justify-content-center">
                       <i class="icon-quote-left"></i>
                     </span>
-                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <p class="name">Henry Dee</p>
-                    <span class="position">Businessman</span>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="testimony-wrap d-flex">
-                  <div class="user-img" style="background-image: url(images/person_3.jpg)">
-                  </div>
-                  <div class="text pl-4 bg-light">
-                  	<span class="quote d-flex align-items-center justify-content-center">
-                      <i class="icon-quote-left"></i>
-                    </span>
-                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <p class="name">Mark Huff</p>
-                    <span class="position">Students</span>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="testimony-wrap d-flex">
-                  <div class="user-img" style="background-image: url(images/person_4.jpg)">
-                  </div>
-                  <div class="text pl-4 bg-light">
-                  	<span class="quote d-flex align-items-center justify-content-center">
-                      <i class="icon-quote-left"></i>
-                    </span>
-                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <p class="name">Rodel Golez</p>
-                    <span class="position">Striper</span>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="testimony-wrap d-flex">
-                  <div class="user-img" style="background-image: url(images/person_1.jpg)">
-                  </div>
-                  <div class="text pl-4 bg-light">
-                  	<span class="quote d-flex align-items-center justify-content-center">
-                      <i class="icon-quote-left"></i>
-                    </span>
-                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <p class="name">Ken Bosh</p>
-                    <span class="position">Manager</span>
+                    <p>
+                    Took 2 months of complete therapy and now me and my wife both are very happy and satisfied.
+                    </p>
+                    <p class="name">Mr. Sachin M</p>
+                    <span class="position">HealthCare Worker</span>
                   </div>
                 </div>
               </div>
@@ -801,21 +689,6 @@ alert('User already registered. Please try again');
       </div>
     </section>
 
-    <section class="ftco-intro" style="background-image: url(images/bg_3.jpg);" data-stellar-background-ratio="0.5">
-			<div class="overlay"></div>
-			<div class="container">
-				<div class="row">
-					<div class="col-md-9">
-						<h2>We Provide Free Dental Care Consultation</h2>
-						<p class="mb-0">Your Health is Our Top Priority with Comprehensive, Affordable medical.</p>
-						<p></p>
-					</div>
-					<div class="col-md-3 d-flex align-items-center">
-						<p class="mb-0"><a href="#" class="btn btn-secondary px-4 py-3">Free Consutation</a></p>
-					</div>
-				</div>
-			</div>
-		</section>
 
     <section class="ftco-section">
     	<div class="container">
@@ -827,7 +700,7 @@ alert('User already registered. Please try again');
           </div>
         </div>
     		<div class="row">
-        	<div class="col-md-3 ftco-animate">
+        	<div class="col-md-6 ftco-animate">
         		<div class="pricing-entry pb-5 text-center">
         			<div>
 	        			<h3 class="mb-4">Basic</h3>
@@ -843,54 +716,16 @@ alert('User already registered. Please try again');
         			<p class="button text-center"><a href="#" class="btn btn-primary px-4 py-3">Get Offer</a></p>
         		</div>
         	</div>
-        	<div class="col-md-3 ftco-animate">
+        	<div class="col-md-6 ftco-animate">
         		<div class="pricing-entry pb-5 text-center">
         			<div>
 	        			<h3 class="mb-4">Standard</h3>
 	        			<p><span class="price">$34.50</span> <span class="per">/ session</span></p>
 	        		</div>
-        			<ul>
-        				<li>Diagnostic Services</li>
-								<li>Professional Consultation</li>
-								<li>Tooth Implants</li>
-								<li>Surgical Extractions</li>
-								<li>Teeth Whitening</li>
-        			</ul>
         			<p class="button text-center"><a href="#" class="btn btn-primary px-4 py-3">Get Offer</a></p>
         		</div>
         	</div>
-        	<div class="col-md-3 ftco-animate">
-        		<div class="pricing-entry active pb-5 text-center">
-        			<div>
-	        			<h3 class="mb-4">Premium</h3>
-	        			<p><span class="price">$54.50</span> <span class="per">/ session</span></p>
-	        		</div>
-        			<ul>
-        				<li>Diagnostic Services</li>
-								<li>Professional Consultation</li>
-								<li>Tooth Implants</li>
-								<li>Surgical Extractions</li>
-								<li>Teeth Whitening</li>
-        			</ul>
-        			<p class="button text-center"><a href="#" class="btn btn-primary px-4 py-3">Get Offer</a></p>
-        		</div>
-        	</div>
-        	<div class="col-md-3 ftco-animate">
-        		<div class="pricing-entry pb-5 text-center">
-        			<div>
-	        			<h3 class="mb-4">Platinum</h3>
-	        			<p><span class="price">$89.50</span> <span class="per">/ session</span></p>
-	        		</div>
-        			<ul>
-        				<li>Diagnostic Services</li>
-								<li>Professional Consultation</li>
-								<li>Tooth Implants</li>
-								<li>Surgical Extractions</li>
-								<li>Teeth Whitening</li>
-        			</ul>
-        			<p class="button text-center"><a href="#" class="btn btn-primary px-4 py-3">Get Offer</a></p>
-        		</div>
-        	</div>
+        	
         </div>
     	</div>
     </section>
