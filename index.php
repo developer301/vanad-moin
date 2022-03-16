@@ -149,12 +149,10 @@ alert('User already registered. Please try again');
 	        <ul class="navbar-nav m-auto">
 	        	<li class="nav-item active"><a href="index.html" class="nav-link pl-0">Home</a></li>
 	        	<li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-	        	<li class="nav-item"><a href="doctor.html" class="nav-link">Doctor</a></li>
 	        	<li class="nav-item"><a href="department.html" class="nav-link">Treatments</a></li>
-	        	<li class="nav-item"><a href="pricing.html" class="nav-link">Pricing</a></li>
-	        	<li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
 	          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
-	        </ul>
+	        	<li class="nav-item"><a href="blog.html" class="btn btn-secondary px-4 py-3 mt-3">Book Appointment</a></li>
+          </ul>
 	      </div>
 	    </div>
 	  </nav>
@@ -169,8 +167,8 @@ alert('User already registered. Please try again');
         <div class="container">
           <div class="row no-gutters slider-text align-items-center justify-content-end" data-scrollax-parent="true">
           <div class="col-md-6 text ftco-animate">
-            <h1 class="mb-4">WELCOME TO VANAD CLINIC</h1>
-            <h3 class="subheading">Best Sex Clinic for you. Vanad Clinic is leading sexology clinic in Pune which offers treatment for Sexual Dysfunction, Erectile Dysfunction, Premature Ejaculation, Night Fall, Over Masturbation, Porn De-Addiction, General Infections , Phimosis and Infertility.  Clinic for Holistic Sexual Treatment and Education </h3>
+            <h1 class="mb-4" style="color:aliceblue;">WELCOME TO VANAD CLINIC</h1>
+            <h3 class="subheading" style="color:aliceblue;">Best Sex Clinic for you. Vanad Clinic is leading sexology clinic in Pune which offers treatment for Sexual Dysfunction, Erectile Dysfunction, Premature Ejaculation, Night Fall, Over Masturbation, Porn De-Addiction, General Infections , Phimosis and Infertility.  Clinic for Holistic Sexual Treatment and Education </h3>
             <p><a href="#" class="btn btn-secondary px-4 py-3 mt-3">COUPLE HERAPY</a></p>
           </div>
         </div>
@@ -182,7 +180,7 @@ alert('User already registered. Please try again');
         <div class="container">
           <div class="row no-gutters slider-text align-items-center justify-content-end" data-scrollax-parent="true">
           <div class="col-md-6 text ftco-animate">
-            <h1 class="mb-4" style="color:white">improving communication between partners</h1>
+            <h1 class="mb-4" style="color:white">Improving communication between partners</h1>
             <h3 class="subheading" style="color:white">Couple therapy is a therapeutic treatment which aims to deal with the various and possible crises that couples can encounter</h3>
             <p><a href="#" class="btn btn-secondary px-4 py-3 mt-3">COUPLE HERAPY</a></p>
           </div>
@@ -346,12 +344,12 @@ alert('User already registered. Please try again');
 
               <div class="pl-md-5 ml-md-5 mb-5">
 							<div class="founder d-flex align-items-center mt-5">
-								<div class="img" style="background-image: url(images/doc-1.jpg);"></div>
+								<div class="img" style="background-image: url(img/Confidentiality.jpg);"></div>
 								<div class="text pl-3">
                 <h3 class="mb-0">100 %</h3>
                 <span class="position">Confidentiality</span>
 								</div>
-                <div class="img" style="background-image: url(images/doc-1.jpg);"></div>
+                <div class="img" style="background-image: url(img/Years-of-Experience.jpg);"></div>
 								<div class="text pl-3">
                 <h3 class="mb-0">14</h3>
 									<span class="position">Years of Experience</span>
@@ -361,12 +359,12 @@ alert('User already registered. Please try again');
 
             <div class="pl-md-5 ml-md-5 mb-5">
 							<div class="founder d-flex align-items-center mt-5">
-								<div class="img" style="background-image: url(images/doc-1.jpg);"></div>
+								<div class="img" style="background-image: url(img/Satisfied-Patients.jpg);"></div>
 								<div class="text pl-3">
                 <h3 class="mb-0">25,000 +</h3>
 									<span class="position">Satisfied Patients</span>
 								</div>
-								<div class="img" style="background-image: url(images/doc-1.jpg);"></div>
+								<div class="img" style="background-image: url(img/Happy-Couples.jpg);"></div>
 								<div class="text pl-3">
                 <h3 class="mb-0">10,000 +</h3>
 									<span class="position">Happy Couples</span>
@@ -694,9 +692,8 @@ alert('User already registered. Please try again');
     	<div class="container">
     		<div class="row justify-content-center mb-5 pb-2">
           <div class="col-md-8 text-center heading-section ftco-animate">
-          	<span class="subheading">Pricing</span>
-            <h2 class="mb-4">Our Pricing</h2>
-            <p>Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country</p>
+          	<h2>New Effectiveness.</h2>
+            <p>LOW INTENSITY EXTRACORPOREAL SHOCK WAVE THERAPY (LI-ESW THERAPY)</p>
           </div>
         </div>
     		<div class="row">
@@ -704,25 +701,17 @@ alert('User already registered. Please try again');
         		<div class="pricing-entry pb-5 text-center">
         			<div>
 	        			<h3 class="mb-4">Basic</h3>
-	        			<p><span class="price">$24.50</span> <span class="per">/ session</span></p>
+	        			<p><span class="price">Erectile Dysfunction Shock Wave Therapy (EDSWT) is an innovative approach to vasculogenic ED, a device that uses advanced acoustics technology.</span></p>
+                <p>This technology has proven to be effective in cardiology, with recent success in reversible ischemic tissues of the heart. EDSWT utilizes low-intensity extracorporeal shock waves, focusing on blood vessels and encouraging neovascularization in the penis shaft and crus. The low-intensity shock waves help relieve vascular deficiency, a common cause of erectile dysfunction.</p>
 	        		</div>
-        			<ul>
-        				<li>Diagnostic Services</li>
-								<li>Professional Consultation</li>
-								<li>Tooth Implants</li>
-								<li>Surgical Extractions</li>
-								<li>Teeth Whitening</li>
-        			</ul>
         			<p class="button text-center"><a href="#" class="btn btn-primary px-4 py-3">Get Offer</a></p>
         		</div>
         	</div>
         	<div class="col-md-6 ftco-animate">
         		<div class="pricing-entry pb-5 text-center">
         			<div>
-	        			<h3 class="mb-4">Standard</h3>
-	        			<p><span class="price">$34.50</span> <span class="per">/ session</span></p>
-	        		</div>
-        			<p class="button text-center"><a href="#" class="btn btn-primary px-4 py-3">Get Offer</a></p>
+            <P><img src="img/Erectile-Dysfunction-Shock-Wave-Therapy-812x1024.png" width="100%"></P>
+              </div>
         		</div>
         	</div>
         	
