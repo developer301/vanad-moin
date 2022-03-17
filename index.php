@@ -119,7 +119,7 @@ alert('User already registered. Please try again');
 	    			</div>
 	    			<div class="pr-md-4 pl-md-0 pl-3 text">
 					    <p class="con"><span>Email</span> <span>vanadclinic24@gmail.com</span></p>
-              <p class="con"><span>Call</span> <span>+91-9192255-00666</span></p>
+              <p class="con"><span>Call</span> <span>+91-92255-00666</span></p>
 					    <p class="con">304, 4th Floor, Eiffel Square Bldg., Opp. Chocolate Biclate Near Badshahi Hotel, Tilak Smarak, Chowk, Lokmanya Bal Gangadhar Tilak Rd, Sadashiv Peth, Pune, Maharashtra 411030</p>
 				    </div>
 			    </div>
@@ -485,7 +485,7 @@ alert('User already registered. Please try again');
 				<div class="row">
           <div class="col-md-4 ftco-animate">
             <div class="blog-entry">
-              <a href="blog-single.html" class="block-20 d-flex align-items-end justify-content-end" style="background-image: url('images/image_1.jpg');">
+              <a href="blog-single.html" class="block-20 d-flex align-items-end justify-content-end" style="background-image: url('img/Vanad-Clinic-ERECTILE-DYSFUNCTION.jpg');">
 						  </a>
               <div class="text bg-white p-4">
                 <h3 class="heading"><a href="#">ERECTILE DYSFUNCTION</a></h3>
@@ -506,7 +506,7 @@ alert('User already registered. Please try again');
 
           <div class="col-md-4 ftco-animate">
             <div class="blog-entry">
-              <a href="blog-single.html" class="block-20 d-flex align-items-end justify-content-end" style="background-image: url('images/image_1.jpg');">
+              <a href="blog-single.html" class="block-20 d-flex align-items-end justify-content-end" style="background-image: url('img/Vanad-Clinic-PREMATURE-EJACULATION.jpg');">
 						  </a>
               <div class="text bg-white p-4">
                 <h3 class="heading"><a href="#">PREMATURE EJACULATION</a></h3>
@@ -527,7 +527,7 @@ alert('User already registered. Please try again');
           
           <div class="col-md-4 ftco-animate">
             <div class="blog-entry">
-              <a href="blog-single.html" class="block-20 d-flex align-items-end justify-content-end" style="background-image: url('images/image_1.jpg');">
+              <a href="blog-single.html" class="block-20 d-flex align-items-end justify-content-end" style="background-image: url('img/Vand-clinic-INFERTILITY.jpg');">
 						  </a>
               <div class="text bg-white p-4">
                 <h3 class="heading"><a href="#">INFERTILITY</a></h3>
@@ -548,7 +548,7 @@ alert('User already registered. Please try again');
           
           <div class="col-md-4 ftco-animate">
             <div class="blog-entry">
-              <a href="blog-single.html" class="block-20 d-flex align-items-end justify-content-end" style="background-image: url('images/image_1.jpg');">
+              <a href="blog-single.html" class="block-20 d-flex align-items-end justify-content-end" style="background-image: url('img/vanad-clinic-AZOOSPERMIA.jpg');">
 						  </a>
               <div class="text bg-white p-4">
                 <h3 class="heading"><a href="#">AZOOSPERMIA</a></h3>
@@ -569,7 +569,7 @@ alert('User already registered. Please try again');
           
           <div class="col-md-4 ftco-animate">
             <div class="blog-entry">
-              <a href="blog-single.html" class="block-20 d-flex align-items-end justify-content-end" style="background-image: url('images/image_1.jpg');">
+              <a href="blog-single.html" class="block-20 d-flex align-items-end justify-content-end" style="background-image: url('img/vanad-clinic-PHIMOSIS.jpg');">
 						  </a>
               <div class="text bg-white p-4">
                 <h3 class="heading"><a href="#">PHIMOSIS</a></h3>
@@ -589,7 +589,7 @@ alert('User already registered. Please try again');
           
           <div class="col-md-4 ftco-animate">
             <div class="blog-entry">
-              <a href="blog-single.html" class="block-20 d-flex align-items-end justify-content-end" style="background-image: url('images/image_1.jpg');">
+              <a href="blog-single.html" class="block-20 d-flex align-items-end justify-content-end" style="background-image: url('img/Vand-Clinic-VARICOCELE.jpg');">
 						  </a>
               <div class="text bg-white p-4">
                 <h3 class="heading"><a href="#">VARICOCELE</a></h3>
@@ -613,7 +613,7 @@ alert('User already registered. Please try again');
 			</div>
 		</section>
 
-    <section class="ftco-intro" style="background-image: url(images/bg_3.jpg);" data-stellar-background-ratio="0.5">
+    <section class="ftco-intro" style="background-image: url(img/bg_3.jpg);" data-stellar-background-ratio="0.5">
 			<div class="overlay"></div>
 			<div class="container">
 				<div class="row">
@@ -719,29 +719,58 @@ alert('User already registered. Please try again');
     	</div>
     </section>
 
+
+    
+    <section class="ftco-section">
+    	<div class="container">
+    		<div class="row justify-content-center mb-5 pb-2">
+          <div class="col-md-8 text-center heading-section ftco-animate">
+          	<h2>Sexual health..</h2>
+            <p>I believe that sexual health is a state of physical, emotional, mental and social well-being in relation to sexuality; it is not merely the absence of disease, dysfunction or infirmity.</p>
+          </div>
+        </div>
+    		<div class="row">
+        	<div class="col-md-6 ftco-animate">
+        		<div class="pricing-entry pb-5 text-center">
+        			<div>
+	        			<p>Sexual health requires a positive and respectful approach to sexuality and sexual relationships, as well as the possibility of having pleasurable and safe sexual experiences, free of coercion, discrimination, and violence. For sexual health to be attained and maintained, the sexual rights of all persons must be respected, protected and fulfilled.
+                </p>
+	        		</div>
+        			<p class="button text-center">World Health Organisation. (2006)</p>
+        		</div>
+        	</div>
+        	<div class="col-md-6 ftco-animate">
+        		<div class="pricing-entry pb-5 text-center">
+        			<div>
+            <P><img src="img/happy-couple-1.jpg" width="100%"></P>
+              </div>
+        		</div>
+        	</div>
+        	
+        </div>
+    	</div>
+    </section>
+
     <footer class="ftco-footer ftco-bg-dark ftco-section">
       <div class="container">
         <div class="row mb-5">
           <div class="col-md">
             <div class="ftco-footer-widget mb-5">
-              <h2 class="ftco-heading-2 logo">Dentista</h2>
-              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+              <h2 class="ftco-heading-2 logo">Vanad Clinic</h2>
+              <p>
+              </p>
             </div>
             <div class="ftco-footer-widget mb-5">
             	<h2 class="ftco-heading-2">Have a Questions?</h2>
             	<div class="block-23 mb-3">
 	              <ul>
-	                <li><span class="icon icon-map-marker"></span><span class="text">203 Fake St. Mountain View, San Francisco, California, USA</span></li>
-	                <li><a href="#"><span class="icon icon-phone"></span><span class="text">+2 392 3929 210</span></a></li>
-	                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">info@yourdomain.com</span></a></li>
+	                <li><span class="icon icon-map-marker"></span><span class="text">
+                  304, 4th Floor, Eiffel Square Bldg., Opp. Chocolate Biclate Near Badshahi Hotel, Tilak Smarak, Chowk, Lokmanya Bal Gangadhar Tilak Rd, Sadashiv Peth, Pune, Maharashtra 411030
+                  </span></li>
+	                <li><a href="#"><span class="icon icon-phone"></span><span class="text">+91-92255-00666</span></a></li>
+	                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">vanadclinic24@gmail.com</span></a></li>
 	              </ul>
 	            </div>
-
-	            <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
-                <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-                <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-                <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
-              </ul>
             </div>
           </div>
           <div class="col-md">
@@ -750,62 +779,37 @@ alert('User already registered. Please try again');
               <ul class="list-unstyled">
                 <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Home</a></li>
                 <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>About</a></li>
-                <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Services</a></li>
-                <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Deparments</a></li>
-                <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Contact</a></li>
+                <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Treatment</a></li>
+                <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Book Appointment</a></li>
               </ul>
             </div>
             <div class="ftco-footer-widget mb-5 ml-md-4">
-              <h2 class="ftco-heading-2">Services</h2>
+              <h2 class="ftco-heading-2">Social Media Account</h2>
               <ul class="list-unstyled">
-                <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Neurolgy</a></li>
-                <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Dentist</a></li>
-                <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Ophthalmology</a></li>
-                <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Cardiology</a></li>
-                <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Surgery</a></li>
+                <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Facebook</a></li>
+                <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Instagram</a></li>
+                <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Twitter</a></li>
+                <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Lnkedin</a></li>
               </ul>
             </div>
           </div>
           <div class="col-md">
             <div class="ftco-footer-widget mb-5">
               <h2 class="ftco-heading-2">Recent Blog</h2>
-              <div class="block-21 mb-4 d-flex">
-                <a class="blog-img mr-4" style="background-image: url(images/image_1.jpg);"></a>
-                <div class="text">
-                  <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about</a></h3>
-                  <div class="meta">
-                    <div><a href="#"><span class="icon-calendar"></span> Sept. 20, 2019</a></div>
-                    <div><a href="#"><span class="icon-person"></span> Admin</a></div>
-                    <div><a href="#"><span class="icon-chat"></span> 19</a></div>
-                  </div>
-                </div>
-              </div>
-              <div class="block-21 mb-5 d-flex">
-                <a class="blog-img mr-4" style="background-image: url(images/image_2.jpg);"></a>
-                <div class="text">
-                  <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about</a></h3>
-                  <div class="meta">
-                    <div><a href="#"><span class="icon-calendar"></span> Sept. 20, 2019</a></div>
-                    <div><a href="#"><span class="icon-person"></span> Admin</a></div>
-                    <div><a href="#"><span class="icon-chat"></span> 19</a></div>
-                  </div>
-                </div>
-              </div>
+              <iframe style="border:0; width: 100%; height: 350px;" alt="learnthedigital.com ADDRESS MAP" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCiqr_X7Kz8OGVbv0WZkntguXmOioJtmck&amp;q=Shop+No+6+B+Building+no+69+Yusuf+Building+Dilima+Street+Dockyard Rd+Mumbai+Maharashtra+400010" frameborder="0" allowfullscreen></iframe>
+
             </div>
           </div>
           <div class="col-md">
           	<div class="ftco-footer-widget mb-5">
             	<h2 class="ftco-heading-2">Opening Hours</h2>
-            	<h3 class="open-hours pl-4"><span class="ion-ios-time mr-3"></span>We are open 24/7</h3>
-            </div>
-            <div class="ftco-footer-widget mb-5">
-            	<h2 class="ftco-heading-2">Subscribe Us!</h2>
-              <form action="#" class="subscribe-form">
-                <div class="form-group">
-                  <input type="text" class="form-control mb-2 text-center" placeholder="Enter email address">
-                  <input type="submit" value="Subscribe" class="form-control submit px-3">
-                </div>
-              </form>
+            	<h3 class="open-hours pl-4">Monday 10am–2pm, 5–9:30pm</span></h3>
+              <h3 class="open-hours pl-4">Tuesday 10am–9:30pm</h3>
+            	<h3 class="open-hours pl-4">Wednesday 10am–2pm, 5–9:30pm</h3>
+            	<h3 class="open-hours pl-4">Thursday 10am–9:30pm</h3>
+            	<h3 class="open-hours pl-4">Friday 10am–2pm, 5–9:30pm</h3>
+              <h3 class="open-hours pl-4">Saturday 10am – 9:30pm</h3>
+              <h3 class="open-hours pl-4">Sunday Closed</h3>
             </div>
           </div>
         </div>
@@ -813,7 +817,7 @@ alert('User already registered. Please try again');
           <div class="col-md-12 text-center">
 
             <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved by Vanad Clinic  | Design and Developed by  <a href="https://colorlib.com" target="_blank">www.learnthedigital.com</a>
   <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
           </div>
         </div>
