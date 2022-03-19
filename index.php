@@ -43,7 +43,7 @@ if (isset($_POST['signup'])) {
 $patientFirstName = mysqli_real_escape_string($con,$_POST['patientFirstName']);
 $patientLastName  = mysqli_real_escape_string($con,$_POST['patientLastName']);
 $patientEmail     = mysqli_real_escape_string($con,$_POST['patientEmail']);
-$icPatient     = mysqli_real_escape_string($con,$_POST['icPatient']);
+$icPatient        = mysqli_real_escape_string($con,$_POST['icPatient']);
 $password         = mysqli_real_escape_string($con,$_POST['password']);
 $month            = mysqli_real_escape_string($con,$_POST['month']);
 $day              = mysqli_real_escape_string($con,$_POST['day']);
@@ -613,7 +613,7 @@ alert('User already registered. Please try again');
 			</div>
 		</section>
 
-    <section class="ftco-intro" style="background-image: url(img/bg_3.jpg);" data-stellar-background-ratio="0.5">
+    <section class="ftco-intro p-4" style="background-image: url(img/bg_3.jpg);" data-stellar-background-ratio="0.5">
 			<div class="overlay"></div>
 			<div class="container">
 				<div class="row">

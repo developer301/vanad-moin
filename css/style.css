@@ -9090,9 +9090,12 @@ textarea.form-control {
   margin-bottom: 0;
   text-transform: uppercase;
   letter-spacing: 2px;
-  color: #000000;
+  color: #00a0e3;
   position: relative; }
 
+.strong{
+  color: #f609c9;
+}
 .heading-section h2 {
   font-size: 34px;
   font-weight: 400; }

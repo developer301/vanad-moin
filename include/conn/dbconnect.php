@@ -45,7 +45,7 @@
 //   }
 ?>
 <?php
-$con = mysqli_connect("localhost","root","","db_healthcare");
+// $con = mysqli_connect("localhost","root","","db_healthcare");
 
 // Check connection
 if (mysqli_connect_errno())
