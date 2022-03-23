@@ -4,30 +4,22 @@ include_once '../include/conn/dbconnect.php';
 $q = $_GET['q'];
 $res = mysqli_query($con,"SELECT * FROM doctorschedule WHERE scheduleDate='$q'");
 if (!$res) {
-die("Error running $sql: " . mysqli_error());
+// die("Error running $sql: " . mysqli_error());
 }
-?>
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-    </head>
-    <body>
-        <?php
-        if (mysqli_num_rows($res)==0) {
-        echo "<div class='alert alert-danger' role='alert'>Doctor is not available at the moment. Please try again later.</div>";
-        
+
+if (mysqli_num_rows($res)==0) {
+        echo "<p class='alert alert-danger' role='alert'>Doctor is not available at the moment. Please try again later.</p>";
         } else {
-        echo "   <table class='table table-hover'>";
+        echo "   <table class='table'>";
             echo " <thead>";
                 echo " <tr>";
-                    echo " <th>App Id</th>";
-                    echo " <th>Day</th>";
-                    echo " <th>Date</th>";
-                    echo "  <th>Start Time</th>";
-                    echo "  <th>End Time</th>";
-                    echo " <th>Availability</th>";
-                    echo "  <th>Book Now!</th>";
+                echo " <th style='font-size:10px;'>App Id</th>";
+                echo " <th style='font-size:10px;'>Day</th>";
+                echo " <th style='font-size:10px;'>Date</th>";
+                echo "  <th style='font-size:10px;'>Start Time</th>";
+                echo "  <th style='font-size:10px;'>End Time</th>";
+                echo " <th style='font-size:10px;'>Availability</th>";
+                echo "  <th style='font-size:10px;'>Book Now!</th>";
                 echo " </tr>";
             echo "  </thead>";
             echo "  <tbody>";
@@ -53,16 +45,15 @@ die("Error running $sql: " . mysqli_error());
                     // } else {
                     // $btnstate="";
                     // }
-                    echo "<td>" . $row['scheduleId'] . "</td>";
-                    echo "<td>" . $row['scheduleDay'] . "</td>";
-                    echo "<td>" . $row['scheduleDate'] . "</td>";
-                    echo "<td>" . $row['startTime'] . "</td>";
-                    echo "<td>" . $row['endTime'] . "</td>";
-                    echo "<td> <span class='label label-".$avail."'>". $row['bookAvail'] ."</span></td>";
-                    echo "<td><a href='appointment.php?&appid=" . $row['scheduleId'] . "&scheduleDate=".$q."' class='btn btn-".$btnclick." btn-xs' role='button' ".$btnstate.">Book Now</a></td>";
-                    // echo "<td><a href='appointment.php?&appid=" . $row['scheduleId'] . "&scheduleDate=".$q."'>Book</a></td>";
-                    // <td><button type='button' class='btn btn-primary btn-xs' data-toggle='modal' data-target='#exampleModal'>Book Now</button></td>";
-                    //triggered when modal is about to be shown
+                    
+                    echo "<td style='font-size:10px;font-weight:bold;'>" . $row['scheduleId'] . "</td>";
+                    echo "<td style='font-size:10px;font-weight:bold;'>" . $row['scheduleDay'] . "</td>";
+                    echo "<td style='font-size:10px;font-weight:bold;'>" . $row['scheduleDate'] . "</td>";
+                    echo "<td style='font-size:10px;font-weight:bold;'>" . $row['startTime'] . "</td>";
+                    echo "<td style='font-size:10px;font-weight:bold;'>" . $row['endTime'] . "</td>";
+                    echo "<td style='font-size:10px;font-weight:bold;'> <span class='label label-".$avail."'>". $row['bookAvail'] ."</span></td>";
+                    echo "<td style='font-size:10px;font-weight:bold;'><a href='appointment.php?&appid=" . $row['scheduleId'] . "&scheduleDate=".$q."' class='btn btn-".$btnclick." btn-xs' role='button' ".$btnstate." style='font-size:10px;font-weight:bold;'>Book Now</a></td>";
+                    echo "<td style='font-size:10px;font-weight:bold;'><a href='appointment.php?&appid=" . $row['scheduleId'] . "&scheduleDate=".$q."'></a></td>";
                     ?>
                     
                     </script>
@@ -75,10 +66,4 @@ die("Error running $sql: " . mysqli_error());
                 ?>
             </tbody>
             <!-- modal start -->
-            
-            
-            
-            
-            
-        </body>
-    </html>
+        

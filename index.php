@@ -735,8 +735,7 @@ alert('User already registered. Please try again');
 						  </a>
               <div class="text bg-white p-4">
                 <h3 class="heading"><a href="#">PHIMOSIS</a></h3>
-                <p>
-                Phimosis is a condition in which the foreskin can’t be retracted from around the tip of the penis</p>
+                <p>Phimosis is a condition in which the foreskin can’t be retracted from around the tip of the penis</p>
                 <ul>
                   <li>Main symptom is inability to retract foreskin by the age of 3</li>
                   <li>Phimosis occur in less than 1 % of teenagers between 16 & 18</li>

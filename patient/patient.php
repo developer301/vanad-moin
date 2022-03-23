@@ -94,7 +94,9 @@ $userRow=mysqli_fetch_array($res,MYSQLI_ASSOC);
 	        	<li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
 	        	<li class="nav-item"><a href="department.html" class="nav-link">Treatments</a></li>
 	     	    <li class="nav-item"><a href="contact.html" data-toggle="modal" data-target="#myModal" class="nav-link">Contact</a></li>
-            	<li class="nav-item"><a href="blog.html" class="btn btn-secondary px-4 py-3 mt-3">Book Appointment</a></li>
+             <li class="nav-item"><a href="patientapplist.php?patientId=<?php echo $userRow['icPatient']; ?>" class="nav-link">Appointment</a></li>
+             <li class="nav-item"><a href="profile.php?patientId=<?php echo $userRow['icPatient']; ?>" class="nav-link">Profile</a></li>
+             <li class="nav-item"><a href="patientlogout.php?logout" class="nav-link"><span class="iconify" data-icon="mdi-light:logout" style="font-size:20px;"></span>Log out</a></li>
           </ul>
 	      </div>
 	    </div>
@@ -103,11 +105,14 @@ $userRow=mysqli_fetch_array($res,MYSQLI_ASSOC);
  
 	   
 <section class="hero-wrap hero-wrap-2" style="background-image: url('../images/bg_1.jpg');" data-stellar-background-ratio="0.5">
-      <div class="overlay"></div>
+      <div class="overlay">
+            </div>
       <div class="container">
         <div class="row no-gutters slider-text align-items-center justify-content-center">
           <div class="col-md-9 ftco-animate text-center">
-			<h1 class="mb-2 bread">Hi <?php echo $userRow['patientFirstName']; ?> <?php echo $userRow['patientLastName']; ?>. <br> Make appointment today!</h1>
+			<h1 class="mb-2 bread">
+      Appointment
+      </h1>
 
             <!-- <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home <i class="ion-ios-arrow-forward"></i></a></span> <span class="mr-2"><a href="index.html">Blog <i class="ion-ios-arrow-forward"></i></a></span> <span>Blog Single <i class="ion-ios-arrow-forward"></i></span></p> -->
           </div>
@@ -115,34 +120,106 @@ $userRow=mysqli_fetch_array($res,MYSQLI_ASSOC);
       </div>
     </section>
 	
-		
-	<section class="ftco-section">
+  <section class="ftco-section ftco-no-pt ftco-no-pb">
 			<div class="container">
+				<div class="row no-gutters">
+					<div class="col-md-12 wrap-about py-4 py-md-5 ftco-animate">
+	          <div class="heading-section mb-5">
+	          	<div class="pl-md-5 ml-md-5 pt-md-5">
+		          	<span class="subheading mb-2">Hi <?php echo $userRow['patientFirstName']; ?> <?php echo $userRow['patientLastName']; ?>.</span>
+		            <h2 class="mb-2" style="font-size: 32px;">Set an appointment today!</h2>
+              </div>
+	          </div>
+
+
+  <div class="pl-md-5 ml-md-5 pt-md-5">    
+        <div class="container">
 				<div class="row">
-          <div class="col-lg-12 ftco-animate">        
-            <div class="about-author d-flex p-4 bg-light">
-              <div class="desc">
-			  <?php if ($userRow['patientMaritialStatus']=="") {
+					<div class="col-xs-12 col-md-8">
+					
+						<?php if ($userRow['patientMaritialStatus']=="") {
 						// <!-- / notification start -->
 						echo "<div class='row'>";
 							echo "<div class='col-lg-12'>";
 								echo "<div class='alert alert-danger alert-dismissable'>";
 									echo "<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;</button>";
-									echo " <i class='fa fa-info-circle'></i>  <strong>Please complete your profile.</strong>" ;
+									echo " <span class=iconify' data-icon='bi:info-circle-fill'></span>  <strong>Please complete your profile.</strong>" ;
 								echo "  </div>";
 							echo "</div>";
 							// <!-- notification end -->
 							} else {
 							}
-							?>
-                <h3>George Washington</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus itaque, autem necessitatibus voluptate quod mollitia delectus aut, sunt placeat nam vero culpa sapiente consectetur similique, inventore eos fugit cupiditate numquam!</p>
+							?>		
+		<!-- notification end -->
+							<div class="input-group" style="margin-bottom:10px;">
+								<div class="input-group-addon">
+                <span class="iconify" data-icon="uim:calender" style="font-size:50px"></span>
+								</div>
+                <div class="form-group">
+								<input class="form-control" id="date" name="date" value="<?php echo date("Y-m-d")?>" onchange="showUser(this.value)"/>          
               </div>
-            </div>
-          </div> <!-- .col-md-8 -->
-        </div>
+
+    
+							</div>
+						</div>
+						<!-- date textbox end -->
+						<!-- script start -->
+						<script>
+						function showUser(str) {
+						
+						if (str == "") {
+						document.getElementById("txtHint").innerHTML = "No data to be shown";
+						return;
+						} else {
+						if (window.XMLHttpRequest) {
+						// code for IE7+, Firefox, Chrome, Opera, Safari
+						xmlhttp = new XMLHttpRequest();
+						} else {
+						// code for IE6, IE5
+						xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+						}
+						xmlhttp.onreadystatechange = function() {
+						if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+						document.getElementById("txtHint").innerHTML = xmlhttp.responseText;
+						}
+						};
+						xmlhttp.open("GET","getschedule.php?q="+str,true);
+						console.log(str);
+						xmlhttp.send();
+						}
+						}
+						</script>
+						
+						<!-- script start end -->
+						
+						<!-- table appointment start -->
+						<!-- <div class="container"> -->
+						<div class="container">
+							<div class="row">
+								<div class="col-xs-12 col-md-8">
+									<div id="txtHint"></div>
+								</div>							
+              </div>
+						</div>
+						<!-- </div> -->
+						<!-- table appointment end -->
+					</div>
+				</div>
+				<!-- /.row -->
+			</div>
+</div>
+
+        <div class="pl-md-5 ml-md-5 mb-5">
+            <p>They are treating all sexual problems from past 15 years with highest success rate.</p>
+            <p>
+              With about 14+ years of practicing experience we now strongly believe that Nature has answers for almost all the ailments human being suffer from. At Vanad Clinic we offer Homeopathy, Ayurveda, supplementary or combination of this therapy for patients with sexual ailments. The key benefit of this is patients from each and every corner of globe can seek an expert and experienced guidance and also save their valuable time and money. This portal has made knowledge and therapeutic skills available to worldwide community overcoming time and distance barriers.
+              </p>
+						</div>
+					</div>
+				</div>
 			</div>
 		</section>
+
 	
     <footer class="ftco-footer ftco-bg-dark ftco-section">
       <div class="container">
@@ -240,3 +317,19 @@ $userRow=mysqli_fetch_array($res,MYSQLI_ASSOC);
     
   </body>
 </html>
+
+<!-- date start -->
+		<script>
+		$(document).ready(function(){
+		var date_input=$('input[name="date"]'); //our date input has the name "date"
+		var container=$('.bootstrap-iso form').length>0 ? $('.bootstrap-iso form').parent() : "body";
+		date_input.datepicker({
+		format: 'yyyy-mm-dd',
+		container: container,
+		todayHighlight: true,
+		autoclose: true,
+		})
+		})
+		</script>
+		<!-- date end -->
+		<script src="https://code.iconify.design/2/2.2.0/iconify.min.js"></script>
